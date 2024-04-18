@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, TextInput, Button, Alert } from "react-native";
-import PrimaryButton from "../components/primaryButton";
+import PrimaryButton from "../components/ui/primaryButton";
 import { useState } from "react";
 
 export default function StartGameScreen({ onStartGame }) {

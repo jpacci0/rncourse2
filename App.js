@@ -7,6 +7,7 @@ import { useState } from "react";
 
 export default function App() {
   const [userNumber, setUserNumber] = useState();
+  const [gameOver, setGameOver] = useState(true);
 
   function startGameHandler(selectedNumber) {
     setUserNumber(selectedNumber);
